@@ -75,6 +75,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="32dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/background">
 
         <LinearLayout
@@ -107,5 +108,13 @@
             android:src="@drawable/baseline_video_camera_back_24" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyTasks"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
 
 </LinearLayout>
